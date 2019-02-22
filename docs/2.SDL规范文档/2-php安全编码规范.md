@@ -121,7 +121,7 @@ connect($uname, $password);
 ```
 
 ---
-###2.4  关闭危险函数
+### 2.4禁止危险函数
 有时为了安全，我们不希望执行包括system()等在那的能够执行命令的php函数，或者能够查看php（）信息的
 　　phpinfo()等函数，那么我们就可以禁止比如：
 　　disable_functions = system,passthru,exec,shell_exec,popen,phpinfo
